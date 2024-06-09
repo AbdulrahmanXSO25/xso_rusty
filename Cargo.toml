@@ -1,0 +1,16 @@
+[package]
+name = "xso_rusty"
+version = "0.1.0"
+edition = "2021"
+authors = ["Abdulrahman Nader <abdulrahmanxso25@outlook.com>"]
+description = "xso_rusty: A collection of small Rust command-line apps to practice and learn Rust programming."
+repository = "https://github.com/AbdulrahmanXSO25/xso_rusty"
+license = "MIT 2.0"
+readme = "README.md"
+keywords = ["cli", "learning", "games", "calculator", "guessing-game"]
+categories = ["command-line-utilities", "education", "games"]
+homepage = "https://github.com/AbdulrahmanXSO25/xso_rusty"
+
+[dependencies]
+clap = "3.1"
+rand = "0.8"
